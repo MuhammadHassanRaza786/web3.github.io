@@ -626,6 +626,8 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  max-width: 100% !important;
+  
 }
 
 .team .member .social {
@@ -692,12 +694,11 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
-.align-items-stretch {
-  /* align-items: center!important; */
+.img-fluid {
+  max-width: 80%;
+  height: auto;
 }
-.d-flex {
-flex: none;
-}
+
 
 /*--------------------------------------------------------------
 # Contact
