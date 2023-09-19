@@ -904,15 +904,15 @@ flex: none;
   }
 
 
-  /*removed blue lines */
+  /* removed blue lines */
   .section-title h2::before,
   .section-title h2::after {
-  content: "";
-  width: 0px;
-  height: 2px;
-  background: #3498db;
-  display: inline-block;
-}
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+  }
 
 }
 
