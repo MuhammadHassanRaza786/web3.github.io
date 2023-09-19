@@ -902,6 +902,18 @@ flex: none;
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+
+  /*removed blue lines */
+  .section-title h2::before,
+  .section-title h2::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
 }
 
 /*--------------------------------------------------------------
